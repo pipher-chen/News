@@ -6,6 +6,10 @@
          id="WebApp_ID" version="2.5">
   <display-name>Archetype Created Web Application</display-name>
 
+  <welcome-file-list>
+    <welcome-file>/background/login.jsp</welcome-file>
+  </welcome-file-list>
+
   <!-- Spring配置文件 -->
   <context-param>
     <param-name>contextConfigLocation</param-name>
