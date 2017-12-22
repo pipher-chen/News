@@ -10,6 +10,6 @@
     </resultMap>
 
     <select id="login" parameterType="User" resultMap="UserResult" >
-        select * from t_user where userName = #{userName} and password = #{password}
-    </select>
+    select * from t_user where userName = #{userName} and password = #{password}
+</select>
 </mapper>
